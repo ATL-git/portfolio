@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Short+Stack&display=swap');
 
-*{
+* {
     font-family: "Barlow", sans-serif;
 }
 
@@ -31,9 +31,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li:hover{
+header nav ul li:hover {
     transform: scale(1.1);
 }
+
 .traitMenu {
     background-color: white;
     width: 1000px;
@@ -72,6 +73,12 @@ h1 {
 .logoHome img {
     width: 60px;
     cursor: pointer;
+    transition: 2s all ease-in-out;
+}
+
+.logoHome img:hover {
+
+    transform: rotate(360deg);
 }
 
 .home {
@@ -93,6 +100,10 @@ h1 {
     color: white;
     cursor: pointer;
     text-align: center;
+}
+
+.CV:hover {
+    transform: scale(1.1);
 }
 
 .clavierDEV {
@@ -121,7 +132,7 @@ h1 {
 
 .aboutMe {
     position: relative;
-    /* display: flex; */
+
     border-top: 1px solid white;
     width: 100%;
     height: 500px;
@@ -311,7 +322,8 @@ h1 {
     cursor: pointer;
 
 }
-.slider_content:hover{
+
+.slider_content:hover {
     transform: scale(1.1);
 }
 
