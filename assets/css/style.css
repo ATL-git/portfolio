@@ -587,9 +587,9 @@ textarea {
 
 @media(max-width : 768px) {
     header nav ul {
-
-        font-size: 16px;
-        gap: 40px;
+align-items: center;
+        font-size: 15px;
+        gap: 30px;
         padding: 0;
         margin-left: 30px;
     }
