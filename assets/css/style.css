@@ -586,7 +586,7 @@ textarea {
 }
 
 @media(max-width : 768px) {
-    
+
 
     header nav ul {
         align-items: center;
@@ -596,6 +596,8 @@ textarea {
         padding: 0;
 
     }
+
+    
 
     .slider_nav_btn_previous {
         order: 1;
@@ -719,7 +721,7 @@ textarea {
 
     .slider {
         width: 80%;
-        padding: 0% 20% 0% 20%;
+        margin: 0% 20% 0% 20%;
         height: 300px;
     }
 
