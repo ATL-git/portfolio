@@ -25,10 +25,15 @@ function next(){
 
 
 function openModal(src){
-    document.querySelector('.overlay').style.display ='block' ;
-    document.querySelector('.modal').classList.add('modalOpen')
+    if (window.innerWidth <= 1100) {
+        window.location.href = src
+    }else{
+        document.querySelector('.overlay').style.display ='block' ;
+        document.querySelector('.modal').classList.add('modalOpen')
+       
+        document.querySelector('#ifram').src = src
+    }
    
-    document.querySelector('#ifram').src = src
    
 }
 
