@@ -729,7 +729,10 @@ textarea {
 
 @media(max-width : 400px){
     h1{
-        background-color:rgb(174, 119, 48) ;
+        color:rgb(174, 119, 48) ;
+    }
+    .titreHome{
+        color:rgb(174, 119, 48) ;
     }
     .textBanniere a{
         color:rgb(174, 119, 48) ;
