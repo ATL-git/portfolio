@@ -25,7 +25,7 @@ function next(){
 
 
 function openModal(src){
-    if (window.innerWidth <= 1100) {
+    if (window.innerWidth <= 1150) {
         window.location.href = src
     }else{
         document.querySelector('.overlay').style.display ='block' ;

@@ -163,54 +163,7 @@ h1 {
 
 }
 
-@media(max-width : 1050px) {
-    .clavierDEV {
-        display: none;
-    }
 
-    .clavierHTML {
-        display: none;
-    }
-
-    .traitMenu {
-        background-color: white;
-        width: 70%;
-        height: 2px;
-    }
-
-    header nav ul {
-
-        font-size: 20px;
-        gap: 20px;
-        padding: 0;
-        margin-left: 10px;
-
-
-    }
-
-    .modal {
-        display: none;
-    }
-
-    .home {
-        margin: auto;
-        margin-top: 100px;
-        padding: 0;
-        width: 80%;
-        text-align: center;
-
-    }
-
-    .home a {
-        width: 50%;
-        margin: auto;
-    }
-
-    .logoHome {
-        margin: auto;
-        margin-bottom: 60px;
-    }
-}
 
 .propos {
     color: white;
@@ -235,7 +188,7 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: 150px;
-    
+
 }
 
 
@@ -545,6 +498,7 @@ textarea {
     padding: 20px;
     transform: translate(-50%, -100vw);
     transition: 0.3s all ease-in-out;
+    z-index: 1;
 
 }
 
@@ -577,4 +531,183 @@ textarea {
 
 .modal_body {
     height: 100%;
+}
+
+@media(max-width : 1150px) {
+
+
+
+    .clavierDEV {
+        display: none;
+    }
+
+    .clavierHTML {
+        display: none;
+    }
+
+    .traitMenu {
+        background-color: white;
+        width: 60%;
+        height: 2px;
+    }
+
+    header nav ul {
+
+        font-size: 20px;
+        gap: 80px;
+        padding: 0;
+        margin-left: 30px;
+
+
+    }
+
+    .modal {
+        display: none;
+    }
+
+    .home {
+        margin: auto;
+        margin-top: 100px;
+        padding: 0;
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .home a {
+        width: 50%;
+        margin: auto;
+    }
+
+    .logoHome {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width : 768px) {
+    header nav ul {
+
+        font-size: 16px;
+        gap: 40px;
+        padding: 0;
+        margin-left: 30px;
+    }
+
+    .aboutMe {
+        height: auto;
+    }
+
+    .traitMenu {
+        background-color: white;
+        width: 100%;
+        height: 2px;
+    }
+
+    .propos {
+        margin: auto;
+        margin-top: 50px;
+        font-size: 24px;
+
+    }
+
+    .traitPropos {
+        display: none;
+    }
+
+    .textPropos {
+        font-size: 20px;
+    }
+
+    .textBanniere {
+        font-size: 16px;
+    }
+
+    .textBanniere a {
+        font-size: 16px;
+    }
+
+    .titreProjet {
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .traitProjet {
+        display: none;
+    }
+
+    .banniere_bot img {
+        height: 120px;
+    }
+
+    .titreForumlaire {
+        font-size: 24px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+
+    .traitForm {
+        display: none;
+    }
+
+    .form_container {
+        width: 80%;
+
+    }
+
+    .form_container h3 {
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .form_container p {
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #name {
+
+        margin-top: 10px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #mail {
+
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .input_comment {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .comment_container button {
+        font-size: 16px;
+    }
+
+    .slider_item p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .gameContainer {
+        flex-direction: column;
+    }
+
+    .slider {
+        width: 80%;
+        height: 300px;
+    }
+    
 }
