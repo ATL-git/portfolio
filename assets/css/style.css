@@ -597,7 +597,7 @@ textarea {
 
     }
 
-    
+
 
     .slider_nav_btn_previous {
         order: 1;
@@ -727,18 +727,31 @@ textarea {
 
 }
 
-@media(max-width : 400px){
-    h1{
-        color:rgb(174, 119, 48) ;
+@media(max-width : 400px) {
+    h1 {
+        color: rgb(174, 119, 48);
+        background: none;
+        background-clip: none;
+        -webkit-background-clip: none;
+        -webkit-text-fill-color: none;
+
     }
-    .titreHome{
-        color:rgb(174, 119, 48) ;
+
+    .titreHome {
+        color: rgb(174, 119, 48);
+        background:none;
+        background-clip: none;
+        -webkit-background-clip: none;
+        -webkit-text-fill-color: none;
+
     }
-    .textBanniere a{
-        color:rgb(174, 119, 48) ;
+
+    .textBanniere a {
+        color: rgb(174, 119, 48);
     }
-    .aboutColor{
-        color:rgb(174, 119, 48) ;
+
+    .aboutColor {
+        color: rgb(174, 119, 48);
         font-weight: bold;
     }
 }
