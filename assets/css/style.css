@@ -586,13 +586,23 @@ textarea {
 }
 
 @media(max-width : 768px) {
+    
+
     header nav ul {
         align-items: center;
         font-size: 15px;
         justify-content: center;
         gap: 35px;
         padding: 0;
-        
+
+    }
+
+    .slider_nav_btn_previous {
+        order: 1;
+    }
+
+    .slider_nav_btn_next {
+        order: 2;
     }
 
     .aboutMe {
@@ -618,6 +628,7 @@ textarea {
 
     .textPropos {
         font-size: 20px;
+        width: 90%;
     }
 
     .textBanniere {
@@ -703,11 +714,12 @@ textarea {
     }
 
     .gameContainer {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .slider {
         width: 80%;
+        padding: 0% 20% 0% 20%;
         height: 300px;
     }
 
