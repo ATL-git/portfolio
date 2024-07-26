@@ -5,7 +5,7 @@ async function sendForm() {
             "comment": document.querySelector('#comment').value,
         };
 
-        await fetch("http://127.0.0.1:3010/send", {
+        await fetch("http://141.95.175.158:3010/send", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
