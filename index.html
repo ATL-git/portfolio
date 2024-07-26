@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>porteFolio_Aurelien</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="#ancre_propos">A Propos de moi</a></li>
+                <li><a href="#ancre_projet">Projets</a></li>
+                <li><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="traitMenu"></div>
+    </header>
+    <main>
+        <section class="home">
+            <h1>Aurélien </h1>
+            <h2 class="titreHome">Développeur Web / Web mobile</h2>
+            <a class="CV" href="./assets/document/cv.pdf" target="_blank">Voir mon CV</a>
+            <div class="logoHome">
+                <a href="https://github.com/ATL-git?tab=repositories"><img src="./assets/image/github.png"
+                        alt="logoGithub"></a>
+                <a href="https://www.linkedin.com/in/aur%C3%A9lien-maureau-54053b294/"><img
+                        src="./assets/image/linkedin.png" alt="logoLinkedin"></a>
+            </div>
+            <div class="clavierDEV">
+                <div></div>
+            </div>
+        </section>
+        <section class="aboutMe" id="ancre_propos">
+            <div class="clavierHTML">
+                <div></div>
+            </div>
+            <div class="titrePropos">
+                <h2 class="propos">A propos de moi</h2>
+                <div class="traitPropos"></div>
+            </div>
+        </section>
+        <div>
+            <p class="textPropos">Bonjour ,</p>
+            <p class="textPropos"> Je suis Aurélien Maureau , <span class="aboutColor">développeur Web</span> formée
+                à
+                l’école du numérique
+                RI7.<br>Après des années à travailler en
+                tant que chauffagiste, je mets aujourd’hui mes capacités au service du <span class="aboutColor">domaine
+                    numérique.</span></p>
+            <p class="textPropos">J'ai débuté mon apprentissage en autodidacte durant 5 mois, avant de finalement
+                avoir
+                la chance
+                d’intégrer la formation <span class="aboutColor">“Développeur Web/ Web mobile”</span>. Ces 6 mois
+                intenses m’ont permis de me
+                construire des <span class="aboutColor">bases solides</span>, d’apprendre les <span
+                    class="aboutColor">bonnes pratiques</span> et d’acquérir la <span class="aboutColor">bonne
+                    méthodologie</span> pour
+                pouvoir continuer de progresser.</p>
+            <div class="banniereCVtop"></div>
+            <p class="textBanniere">En savoir plus sur moi : <a href="./assets/document/cv.pdf" target="_blank">Afficher
+                    mon
+                    CV</a>
+            </p>
+            <div class="banniereCV"></div>
+        </div>
+        <section class="projets" id="ancre_projet">
+            <h2 class="titreProjet">Mes projets</h2>
+            <div class="traitProjet"></div>
+
+            <div class="overlay"></div>
+
+            <div class="modal">
+
+                <div class="modal_close" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </div>
+
+                <div class="modal_body">
+                    <iframe src="" id="ifram" title="jeux du morpion" width="100%" height="100%" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="gameContainer">
+                <button onclick="previous()" class="slider_nav_btn slider_nav_btn_previous"><svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </button>
+                <div class="slider">
+
+                    <div class="slider_content">
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/Morpion/')"
+                                src="./assets/image/morpion.png" alt="morpion">
+                            <p>Le Morpion</p>
+                        </div>
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/ODD_square/')"
+                                src="./assets/image/ODD.png" alt="ODDsquare">
+                            <p>ODD square</p>
+                        </div>
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/Pendu/')" src="./assets/image/Pendu.png"
+                                alt="pendu">
+                            <p>Le Pendu</p>
+                        </div>
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/Puissance4/')"
+                                src="./assets/image/puissance_quatre.png" alt="puissance4">
+                            <p>Puissance 4</p>
+                        </div>
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/GeneralQuizz/')"
+                                src="./assets/image/quizz_general.png" alt="quizz">
+                            <p>Quizz General</p>
+                        </div>
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/QuizzPokemon/')"
+                                src="./assets/image/quizz_pokemon.png" alt="quizz pokemon">
+                            <p>Quizz Pokemon</p>
+                        </div>
+                        <div class="slider_item">
+                            <img onclick="openModal('https://atl-git.github.io/TodoList/')"
+                                src="./assets/image/todo.png" alt="todo list">
+                            <p>TODO list</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button onclick="next()" class="slider_nav_btn slider_nav_btn_next"><svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="gitProjectContainer">
+                <p class="gitProject">Et bien plus encor ! retrouvez tous mes projets sur Github: <a
+                        href="https://github.com/ATL-git?tab=repositories"><img src="
+                        ./assets/image/github.png" alt="logoGithub"></a></p>
+            </div>
+            <div class="banniere_bot">
+                <img src="./assets/image/banniere_bot.png" alt="banniere">
+            </div>
+        </section>
+        <section class="formulaire" id="form">
+            <div class="title_form_container">
+                <h2 class="titreForumlaire">Contact</h2>
+                <div class="traitForm"></div>
+            </div>
+            <article class="form_container">
+                <h3>Contactez moi :</h3>
+                <p class="monMail">Email : a.maureau13400@gmail.com</p>
+                <p>Téléphone : 06-03-44-41-64</p>
+                <h3>Laissez moi un commentaire :</h3>
+                <div class="comment_container">
+                    <form action="/send" method="post">
+                        <div class="textarea_container">
+                            <div class="input_comment">
+                                <label for="name">Nom :</label>
+                                <input type="text" name="name" id="name" size="31"
+                                    placeholder="ex..: nom de societe ou nom"><br>
+                                <label for="mail">Email :</label>
+                                <input type="email" name="mail" id="mail" size="30"
+                                    placeholder="ex...:yolo@gmail.com"><br>
+                            </div>
+
+                            <label for="comment">Commentaire :</label><br>
+                            <textarea name="comment" id="comment" rows="10"></textarea>
+                        </div>
+                        <div class="but_container">
+                            <button type="button" onclick="sendForm()">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>
