@@ -12,8 +12,6 @@ async function sendForm() {
             },
             body: JSON.stringify(body)
         });
-
-        // location.reload();
     }
 
 
